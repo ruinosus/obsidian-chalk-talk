@@ -1,0 +1,21 @@
+{
+  "name": "obsidian-chalk-talk",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Obsidian plugin: chalk-talk lessons inside notes.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit && node esbuild.config.mjs production",
+    "dev": "node esbuild.config.mjs"
+  },
+  "dependencies": {
+    "chalk-talk": "file:../chalk-talk/npm"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "esbuild": "0.24.0",
+    "obsidian": "1.8.7",
+    "typescript": "5.6.3"
+  }
+}

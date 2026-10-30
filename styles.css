@@ -1,0 +1,22 @@
+/* The lesson's chrome in Obsidian's colours; the drawing keeps its paper (or chalkboard). */
+.chalk-talk.is-compact,
+.chalk-talk-modal .chalk-talk {
+  --ink: var(--text-normal);
+  --muted: var(--text-muted);
+  --line: var(--background-modifier-border);
+  --card: var(--background-secondary);
+  --accent: var(--interactive-accent);
+  --on-accent: var(--text-on-accent);
+  --button-line: var(--background-modifier-border);
+  font-family: var(--font-interface);
+}
+.chalk-talk.is-compact { margin: 0.5em 0; }
+.chalk-talk-modal { width: min(1280px, 94vw); max-width: none; }
+.chalk-talk-error {
+  border: 1px solid var(--background-modifier-error);
+  border-radius: var(--radius-m);
+  padding: 10px 12px;
+  font-size: var(--font-ui-small);
+}
+.chalk-talk-error b { color: var(--text-error); }
+.chalk-talk-error code { display: block; margin-top: 6px; color: var(--text-muted); }

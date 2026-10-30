@@ -1,0 +1,10 @@
+{
+  "id": "chalk-talk",
+  "name": "Chalk Talk",
+  "version": "0.1.0",
+  "minAppVersion": "1.8.0",
+  "description": "Hand-drawn lessons that draw themselves, chapter by chapter, from a chalk-talk or chalk-mermaid code block.",
+  "author": "ruinosus",
+  "authorUrl": "https://github.com/ruinosus",
+  "isDesktopOnly": false
+}
