@@ -10,7 +10,7 @@
     "dev": "node esbuild.config.mjs"
   },
   "dependencies": {
-    "chalk-talk": "^0.16.0"
+    "chalk-talk": "^0.17.0"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
